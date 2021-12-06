@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "rentalMethods")
+@Table(name = "rental_methods")
 public class RentalMethods {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

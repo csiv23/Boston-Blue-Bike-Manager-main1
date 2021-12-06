@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "EightdStationServices")
+@Table(name = "eightd_station_services")
 class EightdStationServices {
   private Integer serviceID;
   private Integer stationID;
